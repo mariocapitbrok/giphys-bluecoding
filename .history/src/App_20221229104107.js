@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './App.css'
 import axios from 'axios'
-//import SearchBar from './components/SearchBar'
+import SearchBar from './components/SearchBar'
 import GifList from './components/GifList'
 
 function App() {

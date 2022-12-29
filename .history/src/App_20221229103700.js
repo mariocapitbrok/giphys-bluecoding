@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './App.css'
 import axios from 'axios'
-//import SearchBar from './components/SearchBar'
+import SearchBar from './components/SearchBar'
 import GifList from './components/GifList'
 
 function App() {
@@ -28,16 +28,15 @@ function App() {
         `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${search}&limit=10`
       )
       .then(response => setGifList(response.data.data))
-  }, [search])
+  }, [])
 
   const handleSearchChange = e => {
-    console.log(e.target.value)
     setSearch(e.target.value)
   }
 
   return (
     <>
-      <input value={search} onChange={handleSearchChange} />
+      <SearchBar value={search} onChange={handleSearchChange} />
       <GifList gifs={gifList} />
     </>
   )
