@@ -5,7 +5,7 @@ import SearchBar from './components/SearchBar'
 import GifList from './components/GifList'
 
 function App() {
-  const apiKey = process.env.REACT_APP_API_KEY
+  const apiKey = 'pLURtkhVrUXr3KG25Gy5IvzziV5OrZGa'
   /* const gifs = [
     { title: 'title1', src: 'https://via.placeholder.com/150' },
     { title: 'title2', src: 'https://via.placeholder.com/150' },
@@ -31,6 +31,7 @@ function App() {
   }, [search])
 
   const handleSearchChange = e => {
+    console.log(e.target.value)
     setSearch(e.target.value)
   }
 

@@ -3,9 +3,10 @@ import './App.css'
 import axios from 'axios'
 import SearchBar from './components/SearchBar'
 import GifList from './components/GifList'
+require('dotenv').config()
 
 function App() {
-  const apiKey = process.env.REACT_APP_API_KEY
+  const apiKey = process.env.API_KEY
   /* const gifs = [
     { title: 'title1', src: 'https://via.placeholder.com/150' },
     { title: 'title2', src: 'https://via.placeholder.com/150' },
