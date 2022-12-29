@@ -17,4 +17,4 @@ Develop and test using Chrome/Chromium browser. Your work will be revised with t
 If you have any note or instructions about the exercise, please write them on the README.md 
 
 Giphy API Key for querying API: 
-pLURtkhVrUXr3KG25Gy5IvzziV5OrZGa
+''

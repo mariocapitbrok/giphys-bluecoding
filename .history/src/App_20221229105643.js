@@ -5,7 +5,7 @@ import axios from 'axios'
 import GifList from './components/GifList'
 
 function App() {
-  const apiKey = 'pLURtkhVrUXr3KG25Gy5IvzziV5OrZGa'
+  const apiKey = ''''
   /* const gifs = [
     { title: 'title1', src: 'https://via.placeholder.com/150' },
     { title: 'title2', src: 'https://via.placeholder.com/150' },
